@@ -1,3 +1,3 @@
 language: java
 install: skip
-script: javac -d bin -cp ".:src/*" src/main/Main.java
+script: javac -d bin -cp ".:src:src/*.jar" src/main/Main.java
